@@ -31,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink[300],
+      backgroundColor: Colors.orange[200],
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -51,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       Container(
                         width: 50, // Adjust width as needed
                         child: Divider(
-                          color: Colors.white,
+                          color: Colors.black,
                           thickness: 2, // Adjust thickness as needed
                         ),
                       ),
@@ -59,14 +59,14 @@ class _SplashScreenState extends State<SplashScreen> {
                         padding: const EdgeInsets.symmetric(horizontal: 8.0),
                         child: Icon(
                           Icons.star,
-                          color: Colors.white,
+                          color: Colors.black,
                           size: 20,
                         ),
                       ),
                       Container(
                         width: 50, // Adjust width as needed
                         child: Divider(
-                          color: Colors.white,
+                          color: Colors.black,
                           thickness: 2, // Adjust thickness as needed
                         ),
                       ),
@@ -78,7 +78,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
