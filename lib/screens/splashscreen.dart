@@ -44,7 +44,14 @@ class _SplashScreenState extends State<SplashScreen> {
                   ClipRect(
                     child: Image.asset('assets/Finalized_logo_TRANSMAA-removebg-preview.png'),
                   ),
-                  SizedBox(height: 20),
+                  Text(
+                    'Moving every load, all day, every day.',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -71,15 +78,6 @@ class _SplashScreenState extends State<SplashScreen> {
                         ),
                       ),
                     ],
-                  ),
-                  SizedBox(height: 20),
-                  Text(
-                    'Moving every load, all day, every day.',
-                    style: TextStyle(
-                      fontSize: 15,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
-                    ),
                   ),
                 ],
               ),
